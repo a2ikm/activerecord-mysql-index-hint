@@ -1,3 +1,9 @@
+appraise "4.0" do
+  gem "mysql2", "~> 0.3.13"
+  gem "activerecord", "~> 4.0.13"
+  gem "activerecord-mysql-index-hint", :path => "."
+end
+
 appraise "4.1" do
   gem "mysql2", "~> 0.3.13"
   gem "activerecord", "~> 4.1.15"
