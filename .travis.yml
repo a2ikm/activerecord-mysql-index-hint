@@ -7,6 +7,7 @@ install: bundle install
 before_install: gem install bundler -v 1.11.2
 script: bundle exec rake spec
 gemfile:
+  - gemfiles/4.0.gemfile
   - gemfiles/4.1.gemfile
   - gemfiles/4.2.gemfile
   - gemfiles/5.0.gemfile
